@@ -40,3 +40,8 @@
     align-content: center;
     justify-content: space-between;
 }
+
+input:-webkit-input-placeholder{
+    color: var(--color-brand-1);
+    background-color: var(--color-brand-1);
+}
