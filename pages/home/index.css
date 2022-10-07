@@ -1,1 +1,87 @@
 /* Desenvolva sua estilização aqui ... */
+.noneDisplay{
+    display: none;
+}
+.container{
+    max-width: 1600px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 77px;
+    margin-bottom: 65px;
+}
+.header h1{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.89px;
+    color: var(--color-grey-1);
+}
+.header button{
+    width: 18px;
+    height: 18px;
+    border: 1.5px solid var(--color-grey-1);
+    border-radius: 4px;
+}
+.header button:hover{
+    cursor: pointer;
+}
+.sectionCategory{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    gap: 15px;
+}
+.sectionCategory h3{
+    font-size: 16px;
+    line-height: 19.36px;
+    font-weight: 600;
+    color: var(--color-grey-1);
+}
+
+.btnCategory{
+    display: flex;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+.range{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+.range h3 {
+    color: var(--color-grey-1);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+.range p{
+    color: var(--color-grey-2);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+.rangeDados{
+    display: flex;
+    justify-content: space-between;
+}
+.mainCard{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mainCardTitle{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: var(--color-grey-1);
+    margin-bottom: 70px;
+}
+.cardUl{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}

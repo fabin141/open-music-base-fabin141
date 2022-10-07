@@ -6,41 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/home/index.css">
     <link rel="stylesheet" href="./styles/globalStyles.css">
+    <link rel="stylesheet" href="./styles/buttons.css">
+    <link rel="stylesheet" href="./styles/cards.css">
     <title>Open Music</title>
 </head>
 <body>
     <main class="container">
-        <header>
+        <header class="header">
             <h1>open music</h1>
-            <button>
-                <img src="./assets/img/moon.png" alt="">
+            <button id="darkMode">
+                <img id="dmIcon" src="./assets/img/moon.png" alt="">
             </button>
         </header>
-        <section>
+        <section class="sectionCategory">
             <h3>Gênero musical</h3>
             <div class="btnCategory">
             </div>
         </section>
-        <section>
-            <div>
+        <section class="range">
+            <div class="rangeDados">
                 <h3>Definir preço</h3>
                 <p>Até R$ 199.00</p>
             </div>
             <input type="range">
         </section>
-        <section>
-            <h3>Albuns encontrados</h3>
+        <section class="mainCard">
+            <h3 class="mainCardTitle">Albuns encontrados</h3>
+            
+            <!-- <div id= "Remover">
+                <h2 class="textSemDisplay">Nenhum CD encontrado</h2>
+            </div> -->
             <div class="cards">
-                <ul class="cardsUl">
-                    <li>
+                <ul class="cardUl">
+                    <!-- <li class="cardReder">
                         <figure>
                             <img src="./assets/img/1.jpg" alt="Imagem album Scalene">
                             <figcaption>Scalene 2017</figcaption>
                         </figure>
                         <h3>Magnetite</h3>
-                        <p>R$ 70.00</p>
-                        <button>Comprar</button>
-                    </li>
+                        <div class="btnParg">
+                            <p>R$ 70.00</p>
+                            <button>Comprar</button>
+                        </div>
+                    </li> -->
                 </ul>
             </div>
         </section>
@@ -49,5 +57,7 @@
     <script src="./pages/home/productsData.js"></script>
     <script src="./pages/home/index.js"></script>
     <script src="./scripts/categoryBtn.js"></script>
+    <script src="./scripts/card.js"></script>
+    <script src="./scripts/Filter.js"></script>
 </body>
 </html>
